@@ -1,0 +1,22 @@
+@font-face {
+    font-family: CocogooseRegular;
+    src: url(regular.woff);
+}
+
+@font-face {
+    font-family: CocogooseLight;
+    src: url(light.woff);
+}
+
+@font-face {
+    font-family: CocogooseBlockShadow;
+    src: url(blockShadow.woff);
+}
+
+#title {
+    font-family: CocogooseRegular;
+}
+
+#list {
+    font-family: CocogooseLight;
+}
