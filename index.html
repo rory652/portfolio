@@ -12,14 +12,14 @@
   <body>
     <!-- Titles -->
     <div class="bg-scroll bg-[#111813] w-full h-full">
-        <div class="h-screen grid place-content-center">
+        <div class="h-screen grid place-content-center p-1">
             <span class="bg-clip-text text-transparent bg-[#3066BE] text-9xl" id="title">
                 RORY COE
             </span>
         </div>
 
-        <div class="h-screen grid place-content-center">
-            <span class="bg-clip-text text-transparent bg-[#7CC6FE] text-5xl" id="list">
+        <div class="h-screen grid place-content-center p-1">
+            <span class="bg-clip-text text-transparent bg-[#7CC6FE] text-4xl lg:text-5xl" id="list">
                 <br>Third Year Electronic and Computer Engineering
                 <br>University of Leeds
                 <br>Certified Forklift Operator
@@ -30,15 +30,20 @@
 
     <!-- Body -->
     <div class="bg-scroll bg-zinc-700 w-full h-full justify-center flex">
-        <div class="h-screen w-3/4 grid place-content-center">
-            <div class="grid grid-rows-3 place-content-center rounded-xl border-4 border-zinc-800 h-auto p-2">
-                <div class="text-2xl text-slate-100" id="list">
-                    Dinosour is one of my quick and dirty games (not meant to be good or original, just created in a short amount of time). It is a completely unashamed ripoff of the Chrome dinosaur game that I made in an evening. I could probably make it so much better but I'd rather just call it finished.
+        <div class="h-screen w-screen p-1 lg:w-3/4 grid place-content-center">
+            <div class="grid grid-rows-2 p-1 place-content-center rounded-xl border-4 border-zinc-800 h-auto lg:grid-rows-3 lg:p-2">
+                <div class="text-lg lg:text-2xl text-slate-100 text-center" id="list">
+                    DINOSOUR is one of my quick and dirty games (not meant to be good or original, just created in a short amount of time). It is a completely unashamed ripoff of the Chrome dinosaur game that I made in an evening. I could probably make it so much better but I'd rather just call it finished.
                 </div>
     
                 <!-- Dinosour Game - Only on large screens and above, centered with rounded corners -->
-                <div class="invisible lg:visible w-full flex justify-center row-span-2">
+                <div class="sm: hidden md:hidden lg:w-full lg:flex lg:justify-center lg:row-span-2 lg:visible">
                     <iframe class="flex rounded-lg" mozallowfullscreen="true" allow="autoplay; fullscreen"  src="./games/dinosour/index.html" style="border:0px #000000 none;" name="Dinosour" scrolling="no" msallowfullscreen="true" allowfullscreen="true" webkitallowfullscreen="true" allowtransparency="true" frameborder="0" height="450px" width="800px" class="work-feature-block-iframe"></iframe>
+                </div>
+
+                <!-- Pictures -->
+                <div class="visible w-full flex justify-center row-span-1 lg:hidden">
+                    <img class="flex rounded-lg" src="dinosour.png">
                 </div>
             </div>
         </div>
